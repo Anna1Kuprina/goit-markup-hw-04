@@ -161,6 +161,7 @@ ul {
     margin-right: 10px;
     display: inline;
     fill: rgba(117, 117, 117, 1);
+    cursor: pointer;
    }      
 
  .link-mail, 
@@ -183,7 +184,7 @@ ul {
     fill: currentColor;
 
 }
-.nav-contacts .icon-smartphone {
+.nav-contacts:hover .icon-smartphone {
     fill: currentColor;
 }
 
@@ -259,7 +260,7 @@ ul {
  .feature{
     display: inline-flex;
     justify-content: center;
-    margin-right: 30px;
+    padding-bottom: 30px;
     align-items: center;
     width: 270px;
     height: 120px;
@@ -298,6 +299,7 @@ ul {
     margin-right: 0px;
 }
 .text-title{
+    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -327,6 +329,9 @@ ul {
     margin: 0px;
 }
 /* section-3 our team */
+.team-section{
+    background: #F5F4FA;
+}
 .team-list{
     display: flex;
     margin: 0px;
@@ -336,7 +341,7 @@ ul {
 .team-member{
     min-width: 270px;
     margin-right: 30px;
-    
+    background-color: var(--color-primary);
     box-shadow:
      0px 1px 3px rgba(0, 0, 0, 0.12),
      0px 1px 1px rgba(0, 0, 0, 0.14), 
@@ -371,7 +376,9 @@ ul {
 .text-box-title >.text {
     margin-bottom: 30px;
 }
-
+.text{
+    margin-bottom: 16px;
+}
 
 .social-links{
     display: flex;
@@ -381,6 +388,10 @@ ul {
         
  }
  /* социальные сети инста,твит... */
+ .icon-list{
+    margin-right: 10px;
+
+ }
 .social-link-icon{
     display: flex;
     justify-content: center;
@@ -391,10 +402,8 @@ ul {
     width: 44px;
     height: 44px;
     background-color: #FFFFFF;
-    margin-bottom: 30px;
-    margin-right: 10px;
 }
-.icon-link{
+ .icon-link{
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -415,9 +424,7 @@ background-color: var(--color-accent);
     fill: #FFFFFF;
  }
 /* НАШИ КЛИЕНТЫ */
-.client-section{
-    padding-top: 0px;
-}
+
 .clients{
     display: flex;
     justify-content: center;
@@ -428,12 +435,15 @@ background-color: var(--color-accent);
     padding: 0;
    
 }
+.icon-list{
+    margin-right: 30px;
+}
 .icon-link-client{
     display: inline-block;
     justify-content: center;
     border:1px solid rgba(175, 177, 184, 1);
     border-radius: 4px;
-    margin-right: 30px;
+   
     width: 170px;
     height: 92px;
 
@@ -465,22 +475,19 @@ background-color: var(--color-accent);
 
 .link-adress-footer{
     display: flex;
+    align-items: baseline;
 }
 
 .address-footer{
-    padding-top: 60px;
-        padding-bottom: 60px;
+    
         margin-right: 70px;
 }
-.links-cont{
-    
-            padding-top: 72px;
-            padding-bottom: 100px;
-        }
+
 
 footer {
     background-color: var(--color-background);
-   
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 
@@ -681,8 +688,9 @@ footer {
         color: #757575;
 }
   .portfolio-cards .card:hover{
-    border: 1px solid #EEEEEE;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
-                    0px 4px 4px rgba(0, 0, 0, 0.06),
-                    1px 4px 6px rgba(0, 0, 0, 0.16);
+    
+    box-shadow:
+     0px 1px 1px rgba(0, 0, 0, 0.12), 
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+     1px 4px 6px rgba(0, 0, 0, 0.16);
   }
